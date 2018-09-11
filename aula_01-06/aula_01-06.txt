@@ -1,0 +1,16 @@
+JavaCC
+
+- java compiler compiler
+- gerador automático de analisadores sintáticos
+- gera analisadorees top down 
+- a gramática não pode ter recursão à esquerda nem alternativas que começam com o mesmo símbolo
+
+| especificação	|
+| léxica e 		|		-> 		| javacc|  ->		analisador léxico + sintático em java
+| sintática		|
+
+Tem o começo da especificação da mojica como exemplo no site dele
+
+javacc arquivo_da_especificacao
+javac *.java
+java ClassPrincipal

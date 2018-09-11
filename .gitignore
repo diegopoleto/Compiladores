@@ -1,0 +1,4 @@
+*.class
+*a.out
+Trabalho1/*.txt
+*lex.yy.c
